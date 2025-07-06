@@ -1,4 +1,4 @@
-# ethereum-shopping-list
+# Shop-ListEth
 A shopping list application using Ethereum
 
 ---
