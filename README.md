@@ -1,3 +1,5 @@
+I was curious how Blockchain worked. So here it is... 😅
+
 # Shop-ListEth
 A decentralized shopping list dApp built on Ethereum that lets users add items and mark them as purchased directly on the blockchain using a Solidity smart contract.
 
