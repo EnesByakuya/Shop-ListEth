@@ -1,0 +1,214 @@
+{
+  "contractName": "ShoppingList",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "itemCount",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function",
+      "signature": "0x6bfb0d01"
+    }
+  ],
+  "bytecode": "0x608060405260008055348015601357600080fd5b506093806100226000396000f3fe6080604052600436106038577c010000000000000000000000000000000000000000000000000000000060003504636bfb0d018114603d575b600080fd5b348015604857600080fd5b50604f6061565b60408051918252519081900360200190f35b6000548156fea165627a7a72305820ce6bba99ae3c4d14145c4458e73aff11ddddaef74b02b0d362cfafecec68c55b0029",
+  "deployedBytecode": "0x6080604052600436106038577c010000000000000000000000000000000000000000000000000000000060003504636bfb0d018114603d575b600080fd5b348015604857600080fd5b50604f6061565b60408051918252519081900360200190f35b6000548156fea165627a7a72305820ce6bba99ae3c4d14145c4458e73aff11ddddaef74b02b0d362cfafecec68c55b0029",
+  "sourceMap": "27:58:1:-;;;80:1;56:25;;27:58;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:58:1;;;;;;;",
+  "deployedSourceMap": "27:58:1:-;;;;;;;;;;;;;;;;;;;;;56:25;;8:9:-1;5:2;;;30:1;27;20:12;5:2;56:25:1;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity ^0.5.1;\r\n\r\ncontract ShoppingList {\r\n    uint public itemCount = 0;\r\n}",
+  "sourcePath": "C:/Users/yukse/personalProjects/Shop-ListEth/contracts/ShoppingList.sol",
+  "ast": {
+    "absolutePath": "/C/Users/yukse/personalProjects/Shop-ListEth/contracts/ShoppingList.sol",
+    "exportedSymbols": {
+      "ShoppingList": [
+        38
+      ]
+    },
+    "id": 39,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".1"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 38,
+        "linearizedBaseContracts": [
+          38
+        ],
+        "name": "ShoppingList",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 37,
+            "name": "itemCount",
+            "nodeType": "VariableDeclaration",
+            "scope": 38,
+            "src": "56:25:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 35,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "56:4:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "30",
+              "id": 36,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "80:1:1",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_0_by_1",
+                "typeString": "int_const 0"
+              },
+              "value": "0"
+            },
+            "visibility": "public"
+          }
+        ],
+        "scope": 39,
+        "src": "27:58:1"
+      }
+    ],
+    "src": "0:85:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/C/Users/yukse/personalProjects/Shop-ListEth/contracts/ShoppingList.sol",
+    "exportedSymbols": {
+      "ShoppingList": [
+        38
+      ]
+    },
+    "id": 39,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".1"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 38,
+        "linearizedBaseContracts": [
+          38
+        ],
+        "name": "ShoppingList",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 37,
+            "name": "itemCount",
+            "nodeType": "VariableDeclaration",
+            "scope": 38,
+            "src": "56:25:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 35,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "56:4:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "30",
+              "id": 36,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "80:1:1",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_0_by_1",
+                "typeString": "int_const 0"
+              },
+              "value": "0"
+            },
+            "visibility": "public"
+          }
+        ],
+        "scope": 39,
+        "src": "27:58:1"
+      }
+    ],
+    "src": "0:85:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.1+commit.c8a2cb62.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xFfe8A6604f0Bf050e586B37892D71A1B89E8adF7",
+      "transactionHash": "0xdf3191ca8dd885b9e219e983272a2bc0b917495987c2b686bc6bb6d7a764e8ba"
+    }
+  },
+  "schemaVersion": "3.0.1",
+  "updatedAt": "2025-07-06T13:48:43.536Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
