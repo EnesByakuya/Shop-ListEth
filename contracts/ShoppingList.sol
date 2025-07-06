@@ -19,15 +19,11 @@ contract ShoppingList {
 
     event PurchasedItem (
         uint id,
-        string content,
         bool purchased
     );
 
     constructor() public {
         createItem("Bread");
-        createItem("Milk");
-        createItem("Eggs");
-        createItem("Cheese");
     }
 
     function createItem(string memory _content) public {
@@ -40,6 +36,6 @@ contract ShoppingList {
         Item memory _item = items[_id];
         _item.purchased = !_item.purchased;
         items[_id] = _item;
-        emit PurchasedItem(_id, _item.content, _item.purchased);
+        emit PurchasedItem(_id, _item.purchased);
     }
 }
