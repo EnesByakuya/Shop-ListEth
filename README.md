@@ -1,7 +1,7 @@
 # ethereum-shopping-list
 A shopping list application using Ethereum
 
---
+---
 
 ## Install the following before trying out the app
 - GANACHE Truffle Suite to deploy smart contracts on your local blockchain [here](https://archive.trufflesuite.com/ganache/).
