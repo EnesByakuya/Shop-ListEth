@@ -1,5 +1,5 @@
 # Shop-ListEth
-A shopping list application using Ethereum
+A decentralized shopping list dApp built on Ethereum that lets users add items and mark them as purchased directly on the blockchain using a Solidity smart contract.
 
 ---
 
