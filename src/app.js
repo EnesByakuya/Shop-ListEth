@@ -15,7 +15,6 @@ App = {
             window.web3 = new Web3(window.ethereum)
 
             try {
-                // Request account access if needed
                 await window.ethereum.request({ method: 'eth_requestAccounts' })
             } catch (error) {
                 console.error("User denied account access")
@@ -47,7 +46,6 @@ App = {
         App.contracts.ShoppingList.setProvider(App.web3Provider)
 
         App.shoppingList = await App.contracts.ShoppingList.deployed()
-        // App.shoppingList.defaults({ from: App.account })
     },
 
 
@@ -83,7 +81,7 @@ App = {
                 .on('click', App.togglePurchased)
 
             if (itemPurchased) {
-                $('#completedItemList').append($newItemTemplate)
+                $('#purchasedItemList').append($newItemTemplate)
             } else {
                 $('#itemList').append($newItemTemplate)
             }
@@ -95,14 +93,14 @@ App = {
     createItem: async () => {
         App.setLoading(true)
         const content = $('#newItem').val()
-        await App.shoppingList.createItem(content)
+        await App.shoppingList.createItem(content, { from: App.account })
         window.location.reload()
     },
 
     togglePurchased: async (e) => {
+        e.preventDefault();
         App.setLoading(true)
         const itemId = e.target.name
-        console.log('sending from account:', App.account)
         await App.shoppingList.togglePurchased(itemId, { from: App.account })
         window.location.reload()
     },

@@ -48,7 +48,10 @@
                     <p class="text-center">Loading...</p>
                 </div>
                 <div id="content">
-                    <!-- Your content here -->
+                    <form onSubmit="App.createItem(); return false;">
+                        <input id="newItem" type="text" class="form-control" placeholder="Add new item to your shopping list..." required>
+                        <input type="submit" hidden="">
+                    </form>
                     <ul id="itemList" class="list-unstyled">
                         <div class="itemTemplate checkbox" style="display: none">
                             <label>
