@@ -16,7 +16,7 @@ Install these prerequisites to try out this app.
   - Make sure to add a MetaMask extension to your browser as it makes the process flow smoothly regarding confirming transactions.
 
 ## Step 1: Clone the project
-`git clone https://github.com/EnesByakuya/Shop-ListEth.git`
+`git clone https://github.com/SineNomine001/Shop-ListEth.git`
 
 ## Step 2: Install dependencies
 ```
