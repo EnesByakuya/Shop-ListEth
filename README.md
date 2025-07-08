@@ -11,7 +11,7 @@ Install these prerequisites to try out this app.
 - Truffle framework by running `npm install -g truffle` in the terminal.
   - For more info about Truffle: https://github.com/trufflesuite/truffle
 - Ganache Truffle Suite to deploy smart contracts on your local blockchain [here](https://archive.trufflesuite.com/ganache/).
-  - Run GANACHE when you want to verify that the smart contract is indeed there on the blockchain.
+  - Run Ganache when you want to verify that the smart contract is indeed there on the blockchain.
 - Metamask: https://metamask.io/
   - Make sure to add a MetaMask extension to your browser as it makes the process flow smoothly regarding confirming transactions.
 
